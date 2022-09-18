@@ -1,0 +1,46 @@
+.navbar{
+    padding: 1rem 3rem ;
+    background-color: #003865;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo-content{
+        display: flex;
+        align-items: center;
+
+    }
+    &-logo{
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color: #fff;
+        color: #000;
+        padding: 10px 5px;
+        border-radius: 50px;
+        margin-right: 5px;
+    }
+    &-title{
+        font-size: 22px;
+        font-weight: 500;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .search-box{
+        background-color: #fff;
+        padding: 5px;
+        .input-box{
+            border: none;
+            outline: none;
+            padding: 5px 10px;
+            background: transparent;
+        }
+        i{
+            margin-right: 5px;
+            color: #000;
+        }
+        
+        
+    }
+
+}
